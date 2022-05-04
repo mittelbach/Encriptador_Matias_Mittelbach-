@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Encriptador Challenge Alura</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 class="logo">
+        <a href="">
+          <img src="img/logo.svg" alt="Alura">
+        </a>
+      </h1>
+      <h2 class="titulo"> Encriptador de Palabras </h2>
+
+      <button id="refresh">Actualice esta página...</button>
+    </header>
+      <section class="section1">
+        <div class="input">
+          <input type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui y/o pegue despues de copiar">
+        </div>
+        <div class="msg-informativo">
+          <img src="img/info.svg" alt="info-icon">
+          <h3 class="minusculas">Banner Principal, solo letras minusculas y sin acentos</h3>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="enctriptar">
+          <button class="btn" id="btn-encriptar">Encriptar</button>
+          
+        </div>
+        <div class="desencriptar">
+          <button class="btn" id="btn-desencriptar">Desencriptar</button>
+        </div>
+      </section>
+
+      <section class="section3">
+        
+          <div class="mensaje-error">
+            Ups! nada encriptado o desencriptado...vuelva a ingresar texto en el banner principal, por favor.
+          </div>
+          <div class="cuerpo-mensaje" id="msg">
+            Ups! nada encriptado o desencriptado...ingrese texto en el banner principal, por favor.
+          </div>
+          <div class="btn-copiar">
+            <button class="btn" id="btn-copy">Copiar</button>
+          </div>
+        
+      </section>
+      <footer>
+        <div>&copy;Matías Mittelbach</div>
+        <div>
+          <a href="https://github.com/emimingo">
+            <img src="./img/icongithub.svg" alt="GitHub">
+          </a>
+        </div>
+      </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
